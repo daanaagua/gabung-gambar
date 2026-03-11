@@ -783,6 +783,14 @@ h3 {
   border: 0;
 }
 
+.mobile-cta {
+  display: none;
+}
+
+.mobile-cta.is-hidden {
+  display: none;
+}
+
 @media (max-width: 960px) {
   .hero-grid,
   .page-grid,
@@ -811,8 +819,22 @@ h3 {
 }
 
 @media (max-width: 720px) {
+  body.has-mobile-cta {
+    padding-bottom: 92px;
+  }
+
   .site-header {
     position: static;
+  }
+
+  .hero-grid > .tool-panel,
+  .hero-grid > .merge-stage {
+    order: 1;
+  }
+
+  .hero-grid > .hero-copy,
+  .hero-grid > .page-card {
+    order: 2;
   }
 
   .header-row,
@@ -864,5 +886,103 @@ h3 {
   .action-row .button-secondary,
   .action-row .button-ghost {
     width: 100%;
+  }
+
+  .mobile-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 16px;
+    right: 16px;
+    bottom: max(14px, env(safe-area-inset-bottom));
+    z-index: 50;
+    min-height: 56px;
+    padding: 12px 18px;
+    border-radius: 999px;
+    background: var(--accent);
+    color: #fff;
+    font-weight: 800;
+    box-shadow: 0 18px 42px rgba(217, 93, 57, 0.28);
+    text-align: center;
+  }
+}
+
+@media (max-width: 360px) {
+  .hero {
+    padding: 18px 0 14px;
+  }
+
+  .site-header {
+    padding: 10px 0;
+  }
+
+  .main-nav {
+    gap: 6px;
+  }
+
+  .nav-link,
+  .nav-button {
+    padding: 8px 10px;
+    font-size: 0.86rem;
+  }
+
+  .hero-copy,
+  .page-card,
+  .tool-panel,
+  .footer-panel,
+  .card,
+  .faq-card,
+  .trust-card,
+  .mini-card,
+  .contact-embed,
+  .merge-stage {
+    padding: 14px;
+  }
+
+  .dropzone {
+    margin-top: 14px;
+    padding: 14px;
+  }
+
+  .tool-panel h2 {
+    font-size: 1.46rem;
+  }
+
+  .tool-panel > p {
+    display: none;
+  }
+
+  .dropzone-header {
+    gap: 10px;
+  }
+
+  .dropzone-copy strong {
+    font-size: 1rem;
+  }
+
+  .dropzone-copy span {
+    font-size: 0.88rem;
+  }
+
+  .tool-meta {
+    display: none;
+  }
+
+  .controls,
+  .card-grid,
+  .page-grid,
+  .faq-grid,
+  .mini-grid,
+  .trust-grid,
+  .merge-grid,
+  .contact-grid {
+    gap: 12px;
+  }
+
+  .tool-panel > p,
+  .lead,
+  .section-header p {
+    font-size: 0.96rem;
   }
 }

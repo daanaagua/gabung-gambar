@@ -12,12 +12,40 @@ const pageSizeSelect = document.querySelector("#page-size");
 const orientationSelect = document.querySelector("#page-orientation");
 const marginSelect = document.querySelector("#page-margin");
 const fitSelect = document.querySelector("#page-fit");
+const mobileCta = document.querySelector(".mobile-cta");
+const primaryUploadButton = document.querySelector('.upload-button[for="file-input"]');
 
 const items = [];
 let dragIndex = null;
 
 if (yearTarget) {
   yearTarget.textContent = new Date().getFullYear();
+}
+
+function syncMobileCtaVisibility() {
+  if (!mobileCta || !primaryUploadButton) return;
+  const rect = primaryUploadButton.getBoundingClientRect();
+  const fullyVisible = rect.top >= 0 && rect.bottom <= window.innerHeight;
+  mobileCta.classList.toggle("is-hidden", fullyVisible);
+}
+
+if (mobileCta && primaryUploadButton) {
+  syncMobileCtaVisibility();
+
+  if ("IntersectionObserver" in window) {
+    const observer = new IntersectionObserver((entries) => {
+      const entry = entries[0];
+      const rect = entry.boundingClientRect;
+      const fullyVisible = entry.intersectionRatio > 0.92 && rect.top >= 0 && rect.bottom <= window.innerHeight;
+      mobileCta.classList.toggle("is-hidden", fullyVisible);
+    }, {
+      threshold: [0, 0.5, 0.92, 1],
+    });
+    observer.observe(primaryUploadButton);
+  } else {
+    window.addEventListener("scroll", syncMobileCtaVisibility, { passive: true });
+    window.addEventListener("resize", syncMobileCtaVisibility);
+  }
 }
 
 const pageSizes = {
