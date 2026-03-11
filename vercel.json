@@ -1,4 +1,46 @@
 {
   "trailingSlash": true,
-  "cleanUrls": false
+  "cleanUrls": false,
+  "redirects": [
+    {
+      "source": "/about",
+      "destination": "/tentang/",
+      "permanent": true
+    },
+    {
+      "source": "/about/",
+      "destination": "/tentang/",
+      "permanent": true
+    },
+    {
+      "source": "/contact",
+      "destination": "/kontak/",
+      "permanent": true
+    },
+    {
+      "source": "/contact/",
+      "destination": "/kontak/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy",
+      "destination": "/kebijakan-privasi/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy/",
+      "destination": "/kebijakan-privasi/",
+      "permanent": true
+    },
+    {
+      "source": "/terms",
+      "destination": "/syarat-ketentuan/",
+      "permanent": true
+    },
+    {
+      "source": "/terms/",
+      "destination": "/syarat-ketentuan/",
+      "permanent": true
+    }
+  ]
 }
