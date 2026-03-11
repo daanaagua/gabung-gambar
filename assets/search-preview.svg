@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="GabungGambar search and social preview">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8ef"/>
+      <stop offset="100%" stop-color="#efe4d7"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d95d39"/>
+      <stop offset="100%" stop-color="#f0a15b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg2)"/>
+  <circle cx="1025" cy="120" r="125" fill="#1f6d67" opacity="0.12"/>
+  <rect x="90" y="78" width="126" height="126" rx="30" fill="url(#accent2)"/>
+  <rect x="145" y="115" width="56" height="76" rx="16" fill="#fff" opacity="0.88"/>
+  <rect x="115" y="140" width="56" height="76" rx="16" fill="#fff"/>
+  <text x="90" y="286" fill="#2b2118" font-size="88" font-family="Georgia, serif">GabungGambar</text>
+  <text x="90" y="362" fill="#66594d" font-size="34" font-family="'Segoe UI', sans-serif">Gabung file gambar ke PDF, plus alat gabung 2 gambar jadi 1.</text>
+  <rect x="90" y="424" width="360" height="74" rx="37" fill="#1f6d67"/>
+  <text x="270" y="470" fill="#fff" font-size="30" font-family="'Segoe UI', sans-serif" text-anchor="middle">www.gabunggambar.org</text>
+  <rect x="720" y="126" width="286" height="360" rx="34" fill="#fff" opacity="0.94" stroke="#eadccc"/>
+  <rect x="764" y="176" width="198" height="138" rx="26" fill="#ffe0cc"/>
+  <rect x="762" y="336" width="204" height="24" rx="12" fill="#eadac7"/>
+  <rect x="762" y="374" width="176" height="24" rx="12" fill="#efe3d7"/>
+  <rect x="660" y="158" width="252" height="318" rx="34" fill="#fffaf4" stroke="#eadccc" opacity="0.8"/>
+</svg>

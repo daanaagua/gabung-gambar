@@ -4,15 +4,18 @@ GabungGambar adalah tool berbahasa Indonesia untuk mengubah beberapa gambar menj
 
 ## Core pages
 
-- https://gabunggambar.org/
-- https://gabunggambar.org/gambar-ke-pdf/
-- https://gabunggambar.org/gabung-foto-jadi-pdf/
-- https://gabunggambar.org/jpg-ke-pdf/
-- https://gabunggambar.org/png-ke-pdf/
+- https://www.gabunggambar.org/
+- https://www.gabunggambar.org/gambar-ke-pdf/
+- https://www.gabunggambar.org/gabung-foto-jadi-pdf/
+- https://www.gabunggambar.org/gabung-2-gambar/
+- https://www.gabunggambar.org/jpg-ke-pdf/
+- https://www.gabunggambar.org/png-ke-pdf/
+- https://www.gabunggambar.org/foto-ke-pdf-dari-hp/
+- https://www.gabunggambar.org/ubah-gambar-jadi-pdf-tanpa-aplikasi/
 
 ## Trust pages
 
-- https://gabunggambar.org/tentang/
-- https://gabunggambar.org/kontak/
-- https://gabunggambar.org/kebijakan-privasi/
-- https://gabunggambar.org/syarat-ketentuan/
+- https://www.gabunggambar.org/tentang/
+- https://www.gabunggambar.org/kontak/
+- https://www.gabunggambar.org/kebijakan-privasi/
+- https://www.gabunggambar.org/syarat-ketentuan/

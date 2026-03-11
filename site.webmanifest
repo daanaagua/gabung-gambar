@@ -1,0 +1,16 @@
+{
+  "name": "GabungGambar",
+  "short_name": "GabungGambar",
+  "start_url": "https://www.gabunggambar.org/",
+  "display": "standalone",
+  "background_color": "#f6f1e8",
+  "theme_color": "#d95d39",
+  "icons": [
+    {
+      "src": "/assets/logo-mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

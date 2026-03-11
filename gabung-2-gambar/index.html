@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gabung 2 Gambar Jadi 1 Online Gratis | GabungGambar</title>
+    <meta name="description" content="Gabungkan dua gambar menjadi satu gambar online gratis. Pilih tata letak horizontal atau vertikal lalu unduh hasilnya sebagai PNG.">
+    <link rel="canonical" href="https://www.gabunggambar.org/gabung-2-gambar/">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Gabung 2 Gambar Jadi 1 Online Gratis">
+    <meta property="og:description" content="Subfitur untuk pengguna yang benar-benar ingin menyatukan dua gambar menjadi satu hasil PNG, bukan PDF.">
+    <meta property="og:url" content="https://www.gabunggambar.org/gabung-2-gambar/">
+    <meta property="og:image" content="https://www.gabunggambar.org/assets/search-preview.svg">
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body data-merge-two-images="true">
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="container header-row">
+          <a class="brand" href="/"><span class="brand-mark">G</span><span class="brand-copy"><strong>GabungGambar</strong><small>Gabung 2 gambar jadi 1</small></span></a>
+          <nav class="main-nav" aria-label="Navigasi utama">
+            <a class="nav-link" href="/">Beranda</a>
+            <a class="nav-link" href="/gambar-ke-pdf/">Gambar ke PDF</a>
+            <a class="nav-link" href="/gabung-foto-jadi-pdf/">Gabung Foto</a>
+            <a class="nav-button" href="#alat-2-gambar">Coba alat</a>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <section class="hero">
+          <div class="container merge-grid">
+            <div class="page-card">
+              <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Beranda</a><span>/</span><span>Gabung 2 gambar</span></nav>
+              <span class="eyebrow">Subfitur untuk intent non-PDF</span>
+              <h1>Gabung 2 Gambar Jadi 1 Tanpa Aplikasi</h1>
+              <p class="lead">Sebagian pengguna memang hanya ingin menyatukan dua gambar menjadi satu hasil akhir. Halaman ini dibuat khusus untuk kebutuhan itu, dengan output PNG yang bisa diunduh langsung.</p>
+              <ul class="bullet-list">
+                <li>Pilih tata letak horizontal atau vertikal sesuai kebutuhan kolase cepat.</li>
+                <li>Cocok untuk before-after, dua screenshot, dua foto produk, atau dua bukti transaksi.</li>
+                <li>Kalau Anda sebenarnya ingin satu dokumen PDF, gunakan halaman utama gambar ke PDF.</li>
+              </ul>
+              <div class="small-link-list">
+                <a href="/">Gabung file gambar ke PDF</a>
+                <a href="/gambar-ke-pdf/">Gambar ke PDF</a>
+              </div>
+            </div>
+            <section class="merge-stage" id="alat-2-gambar" aria-labelledby="merge-title">
+              <h2 id="merge-title">Pilih dua gambar lalu gabungkan</h2>
+              <p>Hasil akhir akan diunduh sebagai PNG. Gunakan ini hanya jika target Anda memang satu gambar gabungan, bukan PDF.</p>
+              <div class="controls">
+                <div class="control">
+                  <label for="merge-layout">Tata letak</label>
+                  <select id="merge-layout">
+                    <option value="horizontal">Samping kiri-kanan</option>
+                    <option value="vertical">Atas-bawah</option>
+                  </select>
+                </div>
+                <div class="control">
+                  <label for="merge-background">Latar belakang</label>
+                  <select id="merge-background">
+                    <option value="#ffffff">Putih</option>
+                    <option value="#f6f1e8">Krem lembut</option>
+                    <option value="#111111">Hitam</option>
+                  </select>
+                </div>
+                <div class="control">
+                  <label for="merge-gap">Jarak antar gambar</label>
+                  <select id="merge-gap">
+                    <option value="0">0 px</option>
+                    <option value="12">12 px</option>
+                    <option value="24">24 px</option>
+                    <option value="36">36 px</option>
+                  </select>
+                </div>
+              </div>
+              <div class="card-grid">
+                <article class="card">
+                  <h3 id="merge-label-one">Pilih gambar pertama</h3>
+                  <p>Unggah gambar pertama yang ingin digabung.</p>
+                  <label class="upload-button" for="merge-image-one">Pilih gambar 1</label>
+                  <input class="visually-hidden" id="merge-image-one" type="file" accept="image/*">
+                </article>
+                <article class="card">
+                  <h3 id="merge-label-two">Pilih gambar kedua</h3>
+                  <p>Unggah gambar kedua yang ingin digabung.</p>
+                  <label class="upload-button" for="merge-image-two">Pilih gambar 2</label>
+                  <input class="visually-hidden" id="merge-image-two" type="file" accept="image/*">
+                </article>
+              </div>
+              <div class="merge-canvas-wrap">
+                <p class="merge-canvas-empty" id="merge-empty">Pratinjau gabungan akan muncul di sini setelah dua gambar dipilih.</p>
+                <canvas id="merge-canvas" hidden></canvas>
+              </div>
+              <div class="action-row">
+                <button class="button" id="download-merged-image" type="button" disabled>Unduh PNG</button>
+                <button class="button-secondary" id="swap-images" type="button">Tukar posisi</button>
+                <button class="button-ghost" id="clear-merge-images" type="button">Bersihkan</button>
+              </div>
+              <p class="status" id="merge-status" aria-live="polite"></p>
+            </section>
+          </div>
+        </section>
+      </main>
+      <footer class="site-footer"><div class="container footer-panel"><div class="footer-top"><div><h2>Butuh format PDF?</h2><p class="footer-copy">Kembali ke alat utama bila Anda ingin beberapa gambar masuk ke satu dokumen PDF.</p></div><ul class="footer-links"><li><a href="/">Beranda</a></li><li><a href="/gambar-ke-pdf/">Gambar ke PDF</a></li><li><a href="/kontak/">Kontak</a></li></ul></div><p class="footer-copy">&copy; <span id="current-year"></span> GabungGambar.</p></div></footer>
+    </div>
+    <script defer src="/app.js"></script>
+    <script defer src="/merge-two-images.js"></script>
+  </body>
+</html>
