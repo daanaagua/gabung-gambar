@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PNG ke PDF Online Gratis | Gabung PNG Menjadi PDF</title>
+    <meta name="description" content="Ubah PNG ke PDF online gratis. Tambahkan banyak PNG, atur ukuran halaman, dan simpan hasilnya menjadi satu file PDF.">
+    <link rel="canonical" href="https://gabunggambar.org/png-ke-pdf/">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="PNG ke PDF Online Gratis">
+    <meta property="og:description" content="Gabungkan file PNG menjadi PDF rapi untuk screenshot, desain, dokumen, atau arsip.">
+    <meta property="og:url" content="https://gabunggambar.org/png-ke-pdf/">
+    <meta property="og:image" content="https://gabunggambar.org/assets/og-image.svg">
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body data-pdf-name="png-ke-pdf.pdf">
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="container header-row">
+          <a class="brand" href="/"><span class="brand-mark">G</span><span class="brand-copy"><strong>GabungGambar</strong><small>Tool PNG ke PDF online</small></span></a>
+          <nav class="main-nav" aria-label="Navigasi utama"><a class="nav-link" href="/">Beranda</a><a class="nav-link" href="/gambar-ke-pdf/">Gambar ke PDF</a><a class="nav-link" href="/gabung-foto-jadi-pdf/">Gabung Foto</a><a class="nav-link" href="/jpg-ke-pdf/">JPG ke PDF</a><a class="nav-button" href="#alat">Coba alat</a></nav>
+        </div>
+      </header>
+      <main>
+        <section class="hero">
+          <div class="container hero-grid">
+            <div class="page-card">
+              <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Beranda</a><span>/</span><span>PNG ke PDF</span></nav>
+              <span class="eyebrow">Halaman untuk intent format PNG</span>
+              <h1>Gabung PNG Menjadi Satu PDF</h1>
+              <p class="lead">Gunakan halaman ini saat Anda ingin mengubah banyak PNG menjadi PDF. Cocok untuk screenshot, mockup, dokumen hasil export, atau gambar transparan yang ingin disusun menjadi satu file.</p>
+              <ul class="bullet-list">
+                <li>PNG akan diproses dengan latar putih agar hasil PDF lebih stabil.</li>
+                <li>Cocok untuk screenshot chat, bukti transaksi, dan gambar desain.</li>
+                <li>Anda tetap bisa menambahkan format lain bila dibutuhkan.</li>
+              </ul>
+            </div>
+            <section class="tool-panel" id="alat">
+              <h2>Mulai konversi PNG ke PDF</h2>
+              <p>Tambahkan beberapa PNG, susun urutannya, dan simpan hasil akhir dalam satu file PDF.</p>
+              <div class="dropzone" id="dropzone">
+                <div class="dropzone-header"><div class="dropzone-copy"><strong>Tambah file PNG</strong><span>drag, drop, lalu unduh PDF setelah siap</span></div><label class="upload-button" for="file-input">Pilih PNG</label></div>
+                <input class="visually-hidden" id="file-input" type="file" accept="image/*" multiple>
+                <ul class="tool-meta"><li>Cocok untuk screenshot</li><li>Latar putih otomatis</li><li>Tanpa instal app</li></ul>
+              </div>
+              <div class="controls">
+                <div class="control"><label for="page-size">Ukuran kertas</label><select id="page-size"><option value="a4">A4</option><option value="letter">Letter</option><option value="f4">F4</option></select></div>
+                <div class="control"><label for="page-orientation">Orientasi</label><select id="page-orientation"><option value="portrait">Portrait</option><option value="landscape">Landscape</option></select></div>
+                <div class="control"><label for="page-margin">Margin</label><select id="page-margin"><option value="normal">Normal</option><option value="none">Tanpa margin</option><option value="narrow">Sempit</option><option value="wide">Lebar</option></select></div>
+                <div class="control"><label for="page-fit">Penempatan gambar</label><select id="page-fit"><option value="fit">Pas di halaman</option><option value="fill">Penuhi halaman</option></select></div>
+              </div>
+              <div class="preview-header"><div><h3>Daftar PNG</h3><p id="preview-count">0 gambar dipilih</p></div><label class="button-secondary" for="add-more-input">Tambah file</label></div>
+              <input class="visually-hidden" id="add-more-input" type="file" accept="image/*" multiple>
+              <div class="preview-grid" id="preview-grid"></div>
+              <div class="action-row"><button class="button" id="generate-pdf" type="button">Unduh PDF</button><button class="button-secondary" id="clear-files" type="button">Bersihkan daftar</button></div>
+              <p class="status" id="status-message" aria-live="polite"></p>
+            </section>
+          </div>
+        </section>
+      </main>
+      <footer class="site-footer"><div class="container footer-panel"><div class="footer-top"><div><h2>Masih satu intent, beda pintu masuk</h2><p class="footer-copy">Halaman ini menangani variasi query PNG ke PDF tanpa mengganggu fokus halaman utama.</p></div><ul class="footer-links"><li><a href="/">Beranda</a></li><li><a href="/jpg-ke-pdf/">JPG ke PDF</a></li><li><a href="/kontak/">Kontak</a></li><li><a href="/kebijakan-privasi/">Privasi</a></li></ul></div><p class="footer-copy">&copy; <span id="current-year"></span> GabungGambar.</p></div></footer>
+    </div>
+    <script defer src="https://cdn.jsdelivr.net/npm/jspdf@2.5.2/dist/jspdf.umd.min.js"></script>
+    <script defer src="/app.js"></script>
+  </body>
+</html>

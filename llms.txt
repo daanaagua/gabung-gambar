@@ -1,0 +1,18 @@
+# GabungGambar
+
+GabungGambar adalah tool berbahasa Indonesia untuk mengubah beberapa gambar menjadi satu file PDF secara online.
+
+## Core pages
+
+- https://gabunggambar.org/
+- https://gabunggambar.org/gambar-ke-pdf/
+- https://gabunggambar.org/gabung-foto-jadi-pdf/
+- https://gabunggambar.org/jpg-ke-pdf/
+- https://gabunggambar.org/png-ke-pdf/
+
+## Trust pages
+
+- https://gabunggambar.org/tentang/
+- https://gabunggambar.org/kontak/
+- https://gabunggambar.org/kebijakan-privasi/
+- https://gabunggambar.org/syarat-ketentuan/

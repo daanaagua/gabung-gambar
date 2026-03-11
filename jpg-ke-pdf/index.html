@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JPG ke PDF Online Gratis | Konversi Banyak JPG</title>
+    <meta name="description" content="Konversi file JPG ke PDF dalam beberapa detik. Susun ulang gambar, pilih orientasi halaman, dan simpan sebagai satu dokumen PDF.">
+    <link rel="canonical" href="https://gabunggambar.org/jpg-ke-pdf/">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="JPG ke PDF Online Gratis">
+    <meta property="og:description" content="Ubah banyak file JPG atau JPEG menjadi satu dokumen PDF yang siap diunduh.">
+    <meta property="og:url" content="https://gabunggambar.org/jpg-ke-pdf/">
+    <meta property="og:image" content="https://gabunggambar.org/assets/og-image.svg">
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body data-pdf-name="jpg-ke-pdf.pdf">
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="container header-row">
+          <a class="brand" href="/"><span class="brand-mark">G</span><span class="brand-copy"><strong>GabungGambar</strong><small>Konversi banyak JPG ke PDF</small></span></a>
+          <nav class="main-nav" aria-label="Navigasi utama">
+            <a class="nav-link" href="/">Beranda</a>
+            <a class="nav-link" href="/gambar-ke-pdf/">Gambar ke PDF</a>
+            <a class="nav-link" href="/gabung-foto-jadi-pdf/">Gabung Foto</a>
+            <a class="nav-link" href="/png-ke-pdf/">PNG ke PDF</a>
+            <a class="nav-button" href="#alat">Coba alat</a>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <section class="hero">
+          <div class="container hero-grid">
+            <div class="page-card">
+              <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Beranda</a><span>/</span><span>JPG ke PDF</span></nav>
+              <span class="eyebrow">Target intent berbasis format JPG</span>
+              <h1>Ubah JPG ke PDF Tanpa Aplikasi Tambahan</h1>
+              <p class="lead">Halaman ini fokus untuk pencarian JPG ke PDF, termasuk variasi file JPEG. Jika Anda punya beberapa foto atau hasil scan dalam format JPG, gunakan tool ini untuk menggabungkannya menjadi satu PDF.</p>
+              <ul class="bullet-list">
+                <li>Cocok untuk hasil kamera ponsel yang umumnya tersimpan sebagai JPG.</li>
+                <li>Susun ulang halaman sebelum PDF dibuat agar urutannya tidak berantakan.</li>
+                <li>Gunakan ukuran halaman sesuai kebutuhan kirim dan cetak.</li>
+              </ul>
+            </div>
+            <section class="tool-panel" id="alat">
+              <h2>Tambahkan file JPG Anda</h2>
+              <p>Anda tetap bisa menambahkan PNG atau WEBP, tetapi halaman ini ditulis untuk intent khusus JPG ke PDF.</p>
+              <div class="dropzone" id="dropzone">
+                <div class="dropzone-header"><div class="dropzone-copy"><strong>Masukkan file JPG</strong><span>bisa pilih banyak file sekaligus</span></div><label class="upload-button" for="file-input">Pilih JPG</label></div>
+                <input class="visually-hidden" id="file-input" type="file" accept="image/*" multiple>
+                <ul class="tool-meta"><li>JPG dan JPEG</li><li>Urutan fleksibel</li><li>Unduh cepat</li></ul>
+              </div>
+              <div class="controls">
+                <div class="control"><label for="page-size">Ukuran kertas</label><select id="page-size"><option value="a4">A4</option><option value="letter">Letter</option><option value="f4">F4</option></select></div>
+                <div class="control"><label for="page-orientation">Orientasi</label><select id="page-orientation"><option value="portrait">Portrait</option><option value="landscape">Landscape</option></select></div>
+                <div class="control"><label for="page-margin">Margin</label><select id="page-margin"><option value="normal">Normal</option><option value="none">Tanpa margin</option><option value="narrow">Sempit</option><option value="wide">Lebar</option></select></div>
+                <div class="control"><label for="page-fit">Penempatan gambar</label><select id="page-fit"><option value="fit">Pas di halaman</option><option value="fill">Penuhi halaman</option></select></div>
+              </div>
+              <div class="preview-header"><div><h3>Daftar JPG</h3><p id="preview-count">0 gambar dipilih</p></div><label class="button-secondary" for="add-more-input">Tambah file</label></div>
+              <input class="visually-hidden" id="add-more-input" type="file" accept="image/*" multiple>
+              <div class="preview-grid" id="preview-grid"></div>
+              <div class="action-row"><button class="button" id="generate-pdf" type="button">Unduh PDF</button><button class="button-secondary" id="clear-files" type="button">Bersihkan daftar</button></div>
+              <p class="status" id="status-message" aria-live="polite"></p>
+            </section>
+          </div>
+        </section>
+      </main>
+      <footer class="site-footer"><div class="container footer-panel"><div class="footer-top"><div><h2>Butuh halaman lain?</h2><p class="footer-copy">Lihat juga versi umum dan versi khusus PNG.</p></div><ul class="footer-links"><li><a href="/">Beranda</a></li><li><a href="/png-ke-pdf/">PNG ke PDF</a></li><li><a href="/tentang/">Tentang</a></li><li><a href="/syarat-ketentuan/">Syarat</a></li></ul></div><p class="footer-copy">&copy; <span id="current-year"></span> GabungGambar.</p></div></footer>
+    </div>
+    <script defer src="https://cdn.jsdelivr.net/npm/jspdf@2.5.2/dist/jspdf.umd.min.js"></script>
+    <script defer src="/app.js"></script>
+  </body>
+</html>
